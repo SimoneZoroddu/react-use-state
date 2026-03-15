@@ -1,12 +1,13 @@
-export default function card({ object, indice }) {
-
-
+export default function card({ languageid, indice, index}) {
+  
     return (
         <>
-            {indice == object.id && <div>
-                <h2>{object.title}</h2>
-                <p>{object.description}</p>
-            </div>}
+            {
+                indice == languageid[index].id && <div className="border rounded my-2 p-2">
+                    <h2>{languageid[index].title}</h2>
+                    <p>{languageid[index].description}</p>
+                </div>
+            }
         </>
     )
 }

@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <AppHeader/>
-      <AppMain languages={languages}/>
+      <AppMain languages={languages} />
     </>
   )
 }

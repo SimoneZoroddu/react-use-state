@@ -6,7 +6,11 @@
 export default function appHeader() {
     return (
         <>
-            <h1 style={{backgroundColor: "grey",}}>Learn Web Development</h1>
+            <div className="bg-secondary">
+                <div className="container">
+                    <h1>Learn Web Development</h1>
+                </div>
+            </div>
         </>
     )
 }
